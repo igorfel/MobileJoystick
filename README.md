@@ -1,5 +1,8 @@
 # MobileJoystick
-This is a joystick implementation for mobile platform done with Unity
+This is a joystick implementation for mobile platform done with Unity.
+
+# How to use
+Just get [JoystickController2D](Scripts/JoystickController2D.cs) and use the same structure found in [ExampleScene](Example%20Scene)
 
 # Example Scene
 
