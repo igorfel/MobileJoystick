@@ -8,9 +8,6 @@ public class JoystickController2D : MonoBehaviour {
     float radius = 55, weight = 1;
 
     [SerializeField]
-    Vector2 direction;
-
-    [SerializeField]
     Transform Joystick = null;
 
     Vector3 edge;
@@ -19,11 +16,11 @@ public class JoystickController2D : MonoBehaviour {
     public float Vertical { get { return NormalizeCornerValues(Joystick.position.y, transform.position.y, radius); } }
 
     /// <summary>
-    /// Normaliza os valores entre -1 e 1
+    /// Normalize the joystick output to -1 and 1
     /// </summary>
-    /// <param name="a">Variável</param>
-    /// <param name="_center">Centro do joystick</param>
-    /// <param name="_radius">Raio de movimento do joystick</param>
+    /// <param name="a">Current position</param>
+    /// <param name="_center">Joystick center</param>
+    /// <param name="_radius">Joystick radius</param>
     /// <returns></returns>
     float NormalizeCornerValues(float a, float _center, float _radius)
     {
@@ -31,7 +28,7 @@ public class JoystickController2D : MonoBehaviour {
     }
 
     /// <summary>
-    /// Aplica movimento de retorno ao centro
+    /// Applies the gravity that pulls the joystick back to the center
     /// </summary>
     public void CenterRecall()
     {
