@@ -9,7 +9,7 @@ Just get [JoystickController2D](Scripts/JoystickController2D.cs) and use the sam
 
 # Example Scene
 
-![Structure](http://image.ibb.co/gpN5XS/Example_Scene3.png)
+![Structure](http://image.ibb.co/m2bzsS/Example_Scene3.png)
 
 ![Example Scene](https://preview.ibb.co/hO7XcS/Example_Scene.png)
 
