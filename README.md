@@ -1,4 +1,4 @@
-# MobileJoystick
+# Mobile Joystick for Unity
 This is a joystick implementation for mobile platform done with Unity.
 
 # How to use
